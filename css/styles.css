@@ -3,7 +3,10 @@
 
 body {
 font: normal normal 13px/16px "Open Sans", sans-serif;
-background: #dfdfdf;
+background-image: -webkit-gradient(linear, left top, right bottom, from(#1dbde6), to(#f1515e));
+background-image: linear-gradient(to bottom right, #1dbde6, #f1515e);
+background-repeat: no-repeat;
+background-attachment: fixed;
 }
 
 .container{
